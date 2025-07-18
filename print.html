@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUS TICKET</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/image/bus title logo.jpg" type="image/x-icon">
+    <!-- link css -->
+    <!-- <link rel="stylesheet" href="./index.html"> -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body class="bg dflex">
+    <div class="color">
+        <header>
+            <div class="head">
+                <div class="headBody">
+                    <div class="headBlock">
+                        <div class="headBox dflex">
+                            <i class="fa-solid fa-bus"></i>
+                            <h2>MAHA TRANSPORT</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticketBody dflex">
+                    <div class="ticketBlock">
+                        <div class="ticketBox">
+                            <div class="top">
+                                <p>Tkt. No: <span id="ticketNo"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeBlock">
+                        <div class="timeBox">
+                            <p class="time" id="time"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="fromTo">
+                <div class="fromToBody dflex">
+                    <div class="fromToBlock">
+                        <div class="fromToBox">
+                            <p><strong><span id="fromPlace">---</span></strong> to <strong id="toPlace">---</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="countingBody dflex">
+                    <div class="countingBlock">
+                        <div class="countingBox">
+                            <p>FULL: <span id="personCount">1X</span> <span class="price" id="price">0.00</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fair">
+                <div class="fairBody dflex">
+                    <div class="fairBlock">
+                        <div class="fairBox">
+                            <p><strong>TOTAL Rs: <span id="total">0.00</span></strong></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="id">
+                <div class="idBody dflex">
+                    <div class="idBlock">
+                        <div class="idBox">
+                            <p class="bottom">ID: <span id="ticketId"></span> | M ID: 632101356</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

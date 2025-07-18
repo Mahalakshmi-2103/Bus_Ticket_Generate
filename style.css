@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --ffprimary: monospace;
+    --ffsecondery: "Play", sans-serif;
+    --fsizePrimary: 1.6rem;
+    --fsizeSecondery: 3rem;
+}
+
+body {
+    font-family: var(--ffprimary);
+    font-size: var(--fsizePrimary);
+    font-weight: 500;
+    background: #f5e504;
+    height: 100vh;
+}
+
+.bg {
+    background: #470808;
+    height: 100vh;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+h1,
+h2 {
+    font-family: var(--ffsecondery);
+}
+
+button {
+    background-color: brown;
+    color: #ffffff;
+    padding: 0.8rem 2.5rem;
+}
+
+.start,
+.color {
+    background: rgb(238, 234, 234);
+    border: 3px solid rgb(105, 27, 27);
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+}
+
+.navBox,
+.enterBox {
+    margin: 2rem 0rem;
+}
+
+.timeBlock {
+    padding: 0rem 0rem 0rem 3rem;
+}
+
+.head,
+.fair {
+    border-bottom: 1px solid black;
+    padding: 1rem 0rem;
+}

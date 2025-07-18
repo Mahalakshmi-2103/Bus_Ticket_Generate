@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUS TICKET</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/image/bus title logo.jpg" type="image/x-icon">
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap">
+</head>
+
+<body class="dflex">
+
+    <main>
+        <section>
+            <div class="start">
+                <div class="navBody">
+                    <div class="navBlock">
+                        <div class="navBox dflex">
+                            <i class="fa-solid fa-bus"></i>
+                            <h1>MAHA TRANSPORT</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="startBody dflex">
+                    <div class="startBlock">
+                        <div class="startBox">
+                            <label for="startPoint">Starting Point:</label>
+                            <select name="start" id="start">
+                                <option value="tiruppur">Tiruppur</option>
+                                <option value="poondi">Poondi</option>
+                                <option value="Karumpathampatti">Karmpathampatti</option>
+                                <option value="kmch">KMCH</option>
+                                <option value="hopes">Hopes</option>
+                                <option value="pelamedu">pelamedu</option>
+                                <option value="navaIndia">Nava India</option>
+                                <option value="annaselai">Anna Selai</option>
+                                <option value="cbe">Kovai</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="endBody dflex">
+                    <div class="endBlock">
+                        <div class="endBox">
+                            <label for="ending point">Destination Point:</label>
+                            <select name="endpoint" id="end">
+                                <option value="kovai">Kovai</option>
+                                <option value="Karmpathampatti">Karmpathampatti</option>
+                                <option value="poondi">Poondi</option>
+                                <option value="tiruppur">Tiruppur</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="countBody dflex">
+                    <div class="countBlock">
+                        <div class="countBox">
+                            <label for="cou">Count:</label>
+                            <input type="number" id="people">
+                        </div>
+                    </div>
+                </div>
+                <div class="enterBody dflex">
+                    <div class="enterBlock">
+                        <div class="enterBox">
+                            <button onclick="print()">PRINT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
