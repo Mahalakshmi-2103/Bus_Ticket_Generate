@@ -32,7 +32,7 @@ const end = localStorage.getItem('end');
 const person = parseInt(localStorage.getItem('people'));
 
 const ticketNo =Math.floor(10000+ Math.random()*900000);
-const ticketId= "ID" +Math.floor(Math.random()*999999);
+const ticketId = "ID" +Math.floor(Math.random()*999999);
 const now=new Date().toLocaleDateString();
 
 const price=priceChart[start]?.[end] || 0;
